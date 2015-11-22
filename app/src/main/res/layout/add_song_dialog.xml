@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="歌曲名稱:"
+    android:id="@+id/textViewAddSongName" />
+
+    <EditText
+        android:id="@+id/editAddSongName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter 歌曲.."
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="演唱者:"
+        android:id="@+id/textViewAddSinger" />
+
+    <EditText
+        android:id="@+id/editAddSinger"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter 演唱者.."
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="歌曲編號:"
+        android:id="@+id/textViewAddSongNum" />
+
+    <EditText
+        android:id="@+id/editAddSongNum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter 編號.."
+        android:padding="10dp" />
+</LinearLayout>

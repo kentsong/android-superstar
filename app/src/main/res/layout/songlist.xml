@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@+id/linearLayout2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.88">
+        <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:id="@+id/textName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="第一行文字" />
+        <TextView android:textSize="20.0sp" android:textColor="#ffece72d" android:id="@+id/textNum" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="第二行文字" />
+    </LinearLayout>
+    <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:id="@+id/textSinger" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="演唱者" />
+</LinearLayout>

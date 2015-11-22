@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">明日之星v2</string>
+    <string-array name="roles">
+        <item>歌曲名</item>
+        <item>演唱者</item>
+    </string-array>
+</resources>
